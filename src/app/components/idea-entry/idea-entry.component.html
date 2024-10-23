@@ -1,0 +1,6 @@
+<h2>Submit a New Game Idea</h2>
+<form (submit)="onSubmit()" #form="ngForm">
+    <textarea [(ngModel)]="gameIdeal.description" placeholder="Describe your game idea..." name="description"
+        #description="ngModel" required></textarea>
+    <button type="submit">Post</button>
+</form>

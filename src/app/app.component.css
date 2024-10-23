@@ -1,0 +1,17 @@
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.ideas-section {
+  background-color: #f4f4f4;
+  padding: 2rem 0;
+  overflow-y: auto;
+}
+
+.submit-section {
+  padding: 2rem 0;
+  background-color: #fff;
+}
